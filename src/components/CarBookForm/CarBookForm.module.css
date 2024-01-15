@@ -1,0 +1,30 @@
+.carBookForm {
+    padding: 2rem 4rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.223);
+}
+
+.carBookForm h2 {
+    font-size: 1.8rem;
+}
+
+.carBookForm form {
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.formBtn {
+    width: calc(100% / 3 - 2rem);
+}
+
+.formBtn {
+    height: 37.328px;
+    background-color: var(--color-hl--0);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px var(--color-hl--fade);
+    font-size: 1rem;
+    color: var(--color-text--2);
+}

@@ -1,0 +1,15 @@
+.heroBg {
+    border-radius: 18% 82% 62% 38% / 50% 0% 100% 50%;
+    background-color: var(--color-hl--fade);
+    position: absolute;
+    min-width: 600px;
+    width: 60vw;
+    height: 95vh;
+    background-image: url(../../../public/images/city.png);
+    background-size: cover;
+    background-position: -10vh;
+    opacity: 0.2;
+    z-index: -1;
+    top: -5vh;
+    right: -20vw;
+}

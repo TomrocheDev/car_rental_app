@@ -1,0 +1,8 @@
+.heroImage {
+    margin-top: -125px;
+    height: 60vh;
+    width: 60%;
+    background-image: url(../../../public/images/volkswagen.png);
+    background-position: center;
+    background-size: cover;
+}

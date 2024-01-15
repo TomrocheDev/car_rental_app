@@ -1,0 +1,63 @@
+.vehicleSpecs {
+    grid-area: car-specs;
+    width: 100%;
+    height: 361px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: var(--color-hl--0);
+    padding: 0.5rem 0;
+    color: var(--color-text--2);
+    font-size: 1.1rem;
+}
+
+.header span {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.vehicleSpecs a {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color-text--2);
+    text-decoration: none;
+    background-color: var(--color-hl--0);
+    box-shadow: 4px 4px 0 var(--color-hl--fade);
+    margin-top: 0.5rem;
+}
+
+.specs {
+    border: 1px solid var(--color-text--1);
+}
+
+.specsRow {
+    display: flex;
+}
+
+.specsRow:not(:last-child) {
+    border-bottom: 1px solid var(--color-text--1);
+}
+
+.specsCol {
+    width: 50%;
+    display: flex;
+    padding: 0.5rem 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.specsCol:nth-child(even)::before {
+    content: "";
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 0;
+    width: 2px;
+    background-color: var(--color-text--1);
+}

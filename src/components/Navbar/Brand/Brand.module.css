@@ -1,0 +1,27 @@
+.brand {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.brand img {
+    height: 100%;
+}
+
+.brandText h1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.9;
+}
+
+.brandTop {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+.brandBottom {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.2rem;
+}

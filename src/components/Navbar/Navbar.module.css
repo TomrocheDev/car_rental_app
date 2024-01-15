@@ -1,0 +1,12 @@
+.nav {
+    margin: 0 auto;
+    max-width: 80rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4rem 0;
+}
+
+.navButtons {
+    text-align: end;
+}

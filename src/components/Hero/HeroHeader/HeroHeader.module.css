@@ -1,0 +1,42 @@
+header {
+    width: 35%;
+    margin-top: -125px;
+}
+
+.subheader {
+    font-size: 1.5rem;
+}
+
+.header {
+    font-size: 3.2rem;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2;
+    margin: 0.5rem 0 1.8rem;
+}
+
+.text {
+    color: var(--color-text--1);
+    line-height: 1.5;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.buttons a[role="button"] {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.buttons a[role="button"] img {
+    width: 25px;
+    filter: invert(100%);
+}

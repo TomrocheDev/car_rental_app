@@ -1,0 +1,8 @@
+.vehiclesList {
+    list-style: none;
+    grid-area: car-list;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 361px;
+}
